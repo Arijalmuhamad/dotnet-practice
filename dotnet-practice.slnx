@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CSharpModern/CSharpModern.csproj" />
+    <Project Path="src/HelloApi/HelloApi.csproj" />
+  </Folder>
+</Solution>
