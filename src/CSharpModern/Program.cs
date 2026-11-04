@@ -5,12 +5,12 @@ class Program
 {
 	static void Main()
 	{
-		 Console.WriteLine("Hello, World!");
+		 //Console.WriteLine("Hello, World!");
 
-		 RecordsPractice.Run();
+		 //RecordsPractice.Run();
 
-		 NullablePractice.Run();
+		 //NullablePractice.Run();
 		
-		 // PatternPractice.Run();
+		 PatternPractice.Run();
 	}
 }
