@@ -1,16 +1,19 @@
 ﻿
 using System;
 
+
 class Program
 {
 	static void Main()
 	{
-		 //Console.WriteLine("Hello, World!");
+		//Console.WriteLine("Hello, World!");
 
-		 //RecordsPractice.Run();
+		//RecordsPractice.Run();
 
-		 //NullablePractice.Run();
-		
-		 PatternPractice.Run();
+		//NullablePractice.Run();
+
+		//PatternPractice.Run();
+
+		LinqPractice.Run();
 	}
 }
