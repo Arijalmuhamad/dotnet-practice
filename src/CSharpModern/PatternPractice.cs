@@ -71,7 +71,7 @@ public class PatternPractice
 			Console.WriteLine($"{ord.Id}: {ValidateOrder(ord)}");
 		}
 
-		
+
 	}
 
 	private static string Describe(object? value) => value switch
@@ -94,7 +94,7 @@ public class PatternPractice
 		_ => "Unknown status"
 	};
 
-	
+
 	// === CHALLANGE PATTERN ===
 
 	private static string ValidateOrder(Order ord) => ord switch
@@ -102,7 +102,7 @@ public class PatternPractice
 		{ Total: <= 0 } => "Invalid: total tidak valid",
 		{ Status: "Paid", Email: null } => "Paid (email belum tersedia)",
 		{ Status: "Paid" } => "Paid",
-		{ Status: "Shipped" or "Delivered"} => "On the way / Done",
+		{ Status: "Shipped" or "Delivered" } => "On the way / Done",
 		_ => "Unknown status"
 
 	};
